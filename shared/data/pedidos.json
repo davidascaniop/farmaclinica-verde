@@ -1,0 +1,47 @@
+[
+  {
+    "id": "FCV-1006", "fecha": "2026-11-23T13:10:00Z", "propio": false,
+    "cliente": { "nombre": "José Hernández", "telefono": "0412-555-0144", "direccion": "Retiro en tienda" },
+    "sucursalId": "este", "modoEntrega": "retiro",
+    "items": [ { "productoId": "protector-solar-50", "cantidad": 1, "precioUsd": 12.5 }, { "productoId": "vitamina-c-1g", "cantidad": 2, "precioUsd": 5.4 } ],
+    "envioUsd": 0, "totalUsd": 23.3, "tasaBcv": 245.5,
+    "metodoPago": "zelle", "referencia": "ZL-88213", "estadoPago": "en_revision",
+    "recipe": null, "estado": "recibido", "responsable": "Luis Méndez"
+  },
+  {
+    "id": "FCV-1005", "fecha": "2026-11-23T12:25:00Z", "propio": false,
+    "cliente": { "nombre": "Ana Gutiérrez", "telefono": "0424-555-0172", "direccion": "Av. Bolívar Norte, Res. Ejemplo, apto 4B, Valencia" },
+    "sucursalId": "norte", "modoEntrega": "domicilio",
+    "items": [ { "productoId": "amoxicilina-500", "cantidad": 1, "precioUsd": 6.8 }, { "productoId": "ibuprofeno-400", "cantidad": 1, "precioUsd": 3.2 } ],
+    "envioUsd": 2, "totalUsd": 12, "tasaBcv": 245.5,
+    "metodoPago": "pago_movil", "referencia": "00482211", "estadoPago": "confirmado",
+    "recipe": { "imagen": null, "estado": "pendiente" }, "estado": "pago_confirmado", "responsable": "Andreína Salas"
+  },
+  {
+    "id": "FCV-1004", "fecha": "2026-11-23T10:40:00Z", "propio": false,
+    "cliente": { "nombre": "Pedro Villalobos", "telefono": "0416-555-0119", "direccion": "Av. Universidad, edif. Ejemplo, piso 2, Caracas" },
+    "sucursalId": "centro", "modoEntrega": "domicilio",
+    "items": [ { "productoId": "formula-infantil-1", "cantidad": 2, "precioUsd": 14.2 } ],
+    "envioUsd": 2, "totalUsd": 30.4, "tasaBcv": 245.5,
+    "metodoPago": "transferencia", "referencia": "TR-771204", "estadoPago": "confirmado",
+    "recipe": null, "estado": "en_ruta", "responsable": "Carla Rojas"
+  },
+  {
+    "id": "FCV-1003", "fecha": "2026-11-18T15:05:00Z", "propio": true,
+    "cliente": { "nombre": "María Pérez", "telefono": "0414-555-0188", "direccion": "Av. Urdaneta, Res. Ejemplo, apto 7A, Caracas" },
+    "sucursalId": "centro", "modoEntrega": "domicilio",
+    "items": [ { "productoId": "acetaminofen-500", "cantidad": 2, "precioUsd": 2.5 }, { "productoId": "vitamina-c-1g", "cantidad": 1, "precioUsd": 5.4 }, { "productoId": "crema-dental-100", "cantidad": 1, "precioUsd": 2.8 } ],
+    "envioUsd": 2, "totalUsd": 15.2, "tasaBcv": 243.8,
+    "metodoPago": "pago_movil", "referencia": "00391877", "estadoPago": "confirmado",
+    "recipe": null, "estado": "entregado", "responsable": "Carla Rojas"
+  },
+  {
+    "id": "FCV-1001", "fecha": "2026-10-30T09:20:00Z", "propio": true,
+    "cliente": { "nombre": "María Pérez", "telefono": "0414-555-0188", "direccion": "Retiro en tienda" },
+    "sucursalId": "este", "modoEntrega": "retiro",
+    "items": [ { "productoId": "losartan-50", "cantidad": 1, "precioUsd": 7.5 }, { "productoId": "alcohol-70-500", "cantidad": 1, "precioUsd": 3.1 } ],
+    "envioUsd": 0, "totalUsd": 10.6, "tasaBcv": 238.2,
+    "metodoPago": "zelle", "referencia": "ZL-80417", "estadoPago": "confirmado",
+    "recipe": { "imagen": null, "estado": "aprobado" }, "estado": "entregado", "responsable": "Luis Méndez"
+  }
+]

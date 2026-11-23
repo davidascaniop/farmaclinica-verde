@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Colores de marca (mismos valores que shared/marca.ts). */
+@theme {
+  --color-azul: #0b5cab;
+  --color-azul-oscuro: #08427c;
+  --color-azul-claro: #e8f1fb;
+  --color-verde: #2e9e4f;
+  --color-verde-oscuro: #217a3b;
+  --color-verde-claro: #e9f6ed;
+  --color-texto: #1b2733;
+  --color-suave: #5b6875;
+  --color-borde: #dce3ea;
+  --color-fondo: #f6f8fa;
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+body {
+  background: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+@layer components {
+  .contenedor {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+  .btn,
+  .btn-primario,
+  .btn-verde,
+  .btn-secundario,
+  .btn-peligro {
+    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primario {
+    @apply bg-azul text-white hover:bg-azul-oscuro;
+  }
+  .btn-verde {
+    @apply bg-verde text-white hover:bg-verde-oscuro;
+  }
+  .btn-secundario {
+    @apply border border-borde bg-white text-azul hover:bg-azul-claro;
+  }
+  .btn-peligro {
+    @apply border border-red-200 bg-white text-red-700 hover:bg-red-50;
+  }
+  .campo {
+    @apply min-h-11 w-full rounded-lg border border-borde bg-white px-3 py-2 text-sm text-texto outline-none placeholder:text-suave focus:border-azul focus:ring-2 focus:ring-azul/20;
+  }
+  .tarjeta {
+    @apply rounded-xl border border-borde bg-white;
+  }
+  .etiqueta-campo {
+    @apply mb-1 block text-sm font-medium text-texto;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-azul);
+  outline-offset: 2px;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "farmaclinica-verde",
+  "private": true,
+  "description": "Prototipo de e-commerce de farmacia para FarmaClínica Verde (web + app) con datos de ejemplo.",
+  "scripts": {
+    "instalar": "npm --prefix web install && npm --prefix app install",
+    "web": "npm --prefix web run dev",
+    "app": "npm --prefix app start"
+  }
+}

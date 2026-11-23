@@ -1,0 +1,35 @@
+[
+  {
+    "id": "centro",
+    "nombre": "Sucursal Centro",
+    "ciudad": "Caracas",
+    "zona": "La Candelaria",
+    "direccion": "Av. Urdaneta, esquina de Ánimas, local 12, La Candelaria",
+    "horario": "Lunes a sábado, 7:00 a.m. a 9:00 p.m. Domingos, 8:00 a.m. a 6:00 p.m.",
+    "telefono": "0212-555-0101",
+    "responsable": "Carla Rojas",
+    "mapa": "Av. Urdaneta, La Candelaria, Caracas"
+  },
+  {
+    "id": "este",
+    "nombre": "Sucursal Este",
+    "ciudad": "Caracas",
+    "zona": "Los Palos Grandes",
+    "direccion": "Av. Francisco de Miranda, Centro Comercial Ejemplo, PB, Los Palos Grandes",
+    "horario": "Todos los días, 24 horas",
+    "telefono": "0212-555-0102",
+    "responsable": "Luis Méndez",
+    "mapa": "Av. Francisco de Miranda, Los Palos Grandes, Caracas"
+  },
+  {
+    "id": "norte",
+    "nombre": "Sucursal Norte",
+    "ciudad": "Valencia",
+    "zona": "El Viñedo",
+    "direccion": "Av. Bolívar Norte, Torre Ejemplo, local 3, El Viñedo",
+    "horario": "Lunes a domingo, 8:00 a.m. a 8:00 p.m.",
+    "telefono": "0241-555-0103",
+    "responsable": "Andreína Salas",
+    "mapa": "Av. Bolívar Norte, El Viñedo, Valencia"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "medicamentos", "nombre": "Medicamentos", "abreviatura": "Rx", "color": "#0B5CAB" },
+  { "id": "vitaminas", "nombre": "Vitaminas y suplementos", "abreviatura": "Vit", "color": "#2E9E4F" },
+  { "id": "cuidado-personal", "nombre": "Cuidado personal", "abreviatura": "CP", "color": "#0E7C86" },
+  { "id": "bebes", "nombre": "Bebés y maternidad", "abreviatura": "BB", "color": "#5B6FBF" },
+  { "id": "primeros-auxilios", "nombre": "Primeros auxilios", "abreviatura": "PA", "color": "#3F8F6B" }
+]
