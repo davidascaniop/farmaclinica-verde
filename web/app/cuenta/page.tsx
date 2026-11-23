@@ -33,7 +33,7 @@ export default function Cuenta() {
               </p>
             )}
             <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:justify-end">
-              <Link href={`/pedido/${p.id}`} className="btn-secundario">
+              <Link href={`/pedido?id=${p.id}`} className="btn-secundario">
                 Ver detalle
               </Link>
               <button

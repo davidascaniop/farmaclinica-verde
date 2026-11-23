@@ -117,7 +117,7 @@ export default function Checkout() {
           </p>
           {fase !== "verificando" && (
             <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:justify-center">
-              <Link href={`/pedido/${pedido.id}`} className="btn-primario">
+              <Link href={`/pedido?id=${pedido.id}`} className="btn-primario">
                 Ver estado del pedido
               </Link>
               <Link href="/" className="btn-secundario">

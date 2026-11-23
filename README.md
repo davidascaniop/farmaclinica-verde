@@ -3,6 +3,12 @@
 Prototipo navegable para demostración comercial. Funciona con datos de ejemplo y sin backend:
 todo el estado (carrito, pedidos, existencias) vive en memoria.
 
+## Demo en línea
+
+https://davidascaniop.github.io/farmaclinica-verde/
+
+Se publica sola con GitHub Pages cada vez que se sube un cambio a la rama `main`.
+
 ## Estructura
 
 | Carpeta   | Contenido |

@@ -1,13 +1,13 @@
 "use client";
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { CONTACTO, formatoTasa, pedidoPorId, repetirPedido, sucursalPorId } from "@shared";
 import { useTienda } from "@/lib/tienda";
 import { LineaTiempo, Titulo } from "@/components/Comunes";
 import { CabeceraPedido, ItemsPedido } from "@/components/DetallePedido";
 
 export default function EstadoPedido() {
-  const { id } = useParams<{ id: string }>();
+  const id = useSearchParams().get("id") ?? "";
   const router = useRouter();
   const tienda = useTienda();
   const pedido = pedidoPorId(tienda, id);
